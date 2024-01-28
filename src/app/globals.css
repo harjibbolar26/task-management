@@ -15,19 +15,22 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.shadow {
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.link {
+  text-decoration: none;
+}
+
+.home-content {
+  @apply absolute top-[8%] left-[15%] w-[85%] p-8 max-sm:p-4 max-sm:left-[5%] max-sm:w-[90%] max-sm:mx-auto bg-[#eee] rounded-md pb-6;
+}
+
+* > th {
+  @apply p-2 text-sm text-[#eee];
+}
+
+* > td {
+  @apply p-2 text-base text-[#555];
 }

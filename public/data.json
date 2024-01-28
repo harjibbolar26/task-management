@@ -1,0 +1,165 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Develop AI-powered Quiz Module",
+      "description": "Design and implement an AI-powered quiz module to provide personalized quizzes for students.",
+      "due_date": "2024-02-15",
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "title": "Integrate Natural Language Processing (NLP)",
+      "description": "Integrate NLP capabilities to enhance the assistant's ability to understand and respond to natural language queries.",
+      "due_date": "2024-02-20",
+      "status": "Completed"
+    },
+    {
+      "id": "3",
+      "title": "Implement Student Progress Tracking",
+      "description": "Develop a feature to track and analyze students' progress based on their interactions with the assistant.",
+      "due_date": "2024-02-25",
+      "status": "Completed"
+    },
+    {
+      "id": "4",
+      "title": "Create Interactive Learning Modules",
+      "description": "Design interactive learning modules using AI techniques to engage students and facilitate active learning.",
+      "due_date": "2024-03-05",
+      "status": "Pending"
+    },
+    {
+      "id": "5",
+      "title": "Enhance Speech Recognition",
+      "description": "Improve the assistant's speech recognition capabilities to accurately transcribe spoken words.",
+      "due_date": "2024-03-10",
+      "status": "Completed"
+    },
+    {
+      "id": "6",
+      "title": "Optimize Recommendation Engine",
+      "description": "Refine the recommendation engine to suggest personalized learning resources and study materials for students.",
+      "due_date": "2024-03-15",
+      "status": "Pending"
+    },
+    {
+      "id": "7",
+      "title": "Implement Virtual Classroom Feature",
+      "description": "Develop a virtual classroom feature to facilitate remote learning sessions and collaboration among students.",
+      "due_date": "2024-03-20",
+      "status": "Completed"
+    },
+    {
+      "id": "8",
+      "title": "Create AI Tutoring System",
+      "description": "Build an AI tutoring system to provide individualized tutoring sessions and assistance to students.",
+      "due_date": "2024-03-25",
+      "status": "Completed"
+    },
+    {
+      "id": "9",
+      "title": "Integrate Plagiarism Checker",
+      "description": "Integrate a plagiarism checker tool to help students ensure the originality of their academic work.",
+      "due_date": "2024-04-01",
+      "status": "Completed"
+    },
+    {
+      "id": "10",
+      "title": "Develop Course Recommendation Algorithm",
+      "description": "Develop an algorithm to recommend courses and learning paths tailored to each student's interests and learning goals.",
+      "due_date": "2024-04-05",
+      "status": "Pending"
+    },
+    {
+      "id": "11",
+      "title": "Implement Student Feedback System",
+      "description": "Create a system for collecting and analyzing student feedback to continuously improve the assistant's performance and features.",
+      "due_date": "2024-04-10",
+      "status": "Pending"
+    },
+    {
+      "id": "12",
+      "title": "Enhance Accessibility Features",
+      "description": "Improve accessibility features to ensure the assistant is usable by students with disabilities or special needs.",
+      "due_date": "2024-04-15",
+      "status": "Completed"
+    },
+    {
+      "id": "13",
+      "title": "Integrate Learning Analytics Dashboard",
+      "description": "Integrate a learning analytics dashboard to provide insights into students' learning behaviors and performance metrics.",
+      "due_date": "2024-04-20",
+      "status": "Pending"
+    },
+    {
+      "id": "14",
+      "title": "Develop AI-based Essay Grading System",
+      "description": "Develop an AI-based system for automatically grading essays and providing feedback to students.",
+      "due_date": "2024-04-25",
+      "status": "Completed"
+    },
+    {
+      "id": "15",
+      "title": "Implement Personalized Study Plans",
+      "description": "Implement personalized study plans based on students' learning styles, strengths, and weaknesses.",
+      "due_date": "2024-05-01",
+      "status": "Completed"
+    },
+    {
+      "id": "16",
+      "title": "Integrate Real-time Language Translation",
+      "description": "Integrate realtime languages translation capabilities to support multilingual students and educators.",
+      "due_date": "2024-05-05",
+      "status": "Pending"
+    },
+    {
+      "id": "17",
+      "title": "Develop Gamification Features",
+      "description": "Design and implement gamification features to incentivize student engagement and motivation.",
+      "due_date": "2024-05-10",
+      "status": "Pending"
+    },
+    {
+      "id": "18",
+      "title": "Create AI-based Content Creation Tools",
+      "description": "Develop AI-based tools for generating educational content, such as quizzes, exercises, and study guides.",
+      "due_date": "2024-05-15",
+      "status": "Completed"
+    },
+    {
+      "id": "19",
+      "title": "Enhance User Interface and User Experience (UI/UX)",
+      "description": "Improve the UI/UX design of the assistant to make it more intuitive and user-friendly for students and educators.",
+      "due_date": "2024-05-20",
+      "status": "Pending"
+    },
+    {
+      "id": "20",
+      "title": "Conduct User Testing and Feedback Sessions",
+      "description": "Updated for testing",
+      "due_date": "2024-05-25",
+      "status": "Completed"
+    },
+    {
+      "id": "",
+      "title": "New Task",
+      "description": "Added for testing",
+      "due_date": "2024-02-02",
+      "status": "Pending"
+    },
+    {
+      "id": "",
+      "title": "Another task",
+      "description": "Adding again",
+      "due_date": "2024-02-02",
+      "status": "Pending"
+    },
+    {
+      "id": "",
+      "title": "Status Check",
+      "description": "Checking completed and pending status ",
+      "due_date": "2024-02-02",
+      "status": "Pending"
+    }
+  ]
+}

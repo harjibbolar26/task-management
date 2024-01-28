@@ -1,8 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This Task Management Dashboard was built with [Next.js](https://nextjs.org/) and [Tailwind Css](https://tailwindcss.com/)
 
 ## Getting Started
 
-First, run the development server:
+Before runing this task, the json data in public/data.json must first be hosted on a json live server. 
+
+Follow the instruction below to host it.
+
+First in the terminal of the project, run:
+```bash
+
+npm install -g json-server
+
+```
+
+Then, the json data is hosted on an endpoint with port 3002, so run the next command
+
+``` bash
+
+json-server --watch public/data.json --port 3002
+
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +35,28 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The app was built to manage the task allocation system in [TeachMateAI](https://teachmateai.com/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+TeachMateAI is an AI-powered digital assistant, designed by teachers and tech experts to help take control of users' valuable time.
 
-## Learn More
+The home page of this app gives details of TeachMateAI and what it is all about.
 
-To learn more about Next.js, take a look at the following resources:
+Then the Task page consists of the list of tasks available - their title, description of the task, date which task will be due and current status.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app allows for users to add new tasks to the current list and update the current tasks. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+In adding new tasks, the due date is automatically set by the system to 5 days after the task was added and the status is automatically set to pending. 
 
-## Deploy on Vercel
+So, only the task title and description can be manually filled by a user. This then updates the list of the current tasks in the task page.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tasks already available can also be updated and also gives a 5 days due date from the date updated which makes status pending.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+There is also a card that displays the number of completed and pending status each, which uploads themselves as tasks are added to the list.
+
+A search box is included in the task page, just above the list of tasks and it filters the list of tasks by status (either completed or pending).
+
+Other dependencies used for the project are:
+
+[React icons](https://react-icons.github.io/react-icons/) - used to add all icons needed to the project
+
+[Tailwind CSS](https://tailwindcss.com/) is the styling library used.
